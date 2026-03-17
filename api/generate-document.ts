@@ -20,7 +20,7 @@ export default async function handler(req: any, res: any) {
   try {
     const ai = new GoogleGenAI({ apiKey });
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-pro-preview-03-25",
+      model: "gemini-1.5-pro",
       contents: prompt,
     });
     return res.json({ text: response.text });
