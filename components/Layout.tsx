@@ -28,7 +28,7 @@ const Layout: React.FC<LayoutProps> = ({ currentView, setCurrentView, children }
             <LayoutDashboard className="h-6 w-6 text-blue-400" />
             <span className="text-xl font-bold tracking-tight">LicitaGov AI</span>
           </div>
-          <p className="text-xs text-slate-400 mt-1">Sustentação Operacional</p>
+          <p className="text-xs text-slate-400 mt-1">Inteligência Artificial, Assistente Operacional e Normativo especializado em Licitações</p>
         </div>
         
         <nav className="flex-1 py-6 px-3 space-y-2">
